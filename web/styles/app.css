@@ -1,0 +1,29 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app > h1 {
+  color: #996dff;
+  margin-top: -.5rem;
+}
+
+
+
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 6.4rem;
+  margin-bottom: 1.8rem;
+}
+
+#app > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 51.2rem;
+}
+
+#app .placeholder {
+  color: #7c7c8a;
+  user-select: none;
+}
